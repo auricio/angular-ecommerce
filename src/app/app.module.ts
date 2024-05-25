@@ -9,6 +9,7 @@ import { NaoEncontradaComponent } from './nao-encontrada/nao-encontrada.componen
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { BarraPesquisaComponent } from './barra-pesquisa/barra-pesquisa.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { BarraPesquisaComponent } from './barra-pesquisa/barra-pesquisa.componen
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
